@@ -12,7 +12,7 @@ This Eagle layout can be used to etch a single HomeMon node, in the form of a sh
 Features
 --------
 
-- Twelve pins can be used as general I/O (e.g. for reading data from sensors)
+- Eleven pins can be used as general I/O (e.g. for reading data from sensors)
 - Two actuators can be driven by relays
 - A power supply bus (5V, 3.3V and ground lines) with fifteen pins is added for convenience
 - An [NRF24L01+ 2.4 GHz transceiver](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF24-series) is used for inter-node communication, and serial communication (either via the USB converter of the Arduino or, **optionally**, via an [HC-05 based Bluetooth adapter](https://cdn.makezine.com/uploads/2014/03/hc_hc-05-user-instructions-bluetooth.pdf) allows the node to be connected to a desktop sink running the [HomeMon Viewer Application](https://github.com/HashakGik/HomeMon-MFC-Cpp)
@@ -23,9 +23,9 @@ Pinout
 ------
 
 - Serial pins (`D0` and `D1`): Bluetooth adapter
-- SPI pins (`D11` to `D13`), `D8` and `D9` pins: radio transceiver
+- SPI pins (`D11` to `D13`), `D2`, `D8` and `D9` pins: radio transceiver
 - Analog pins (`A0` to `A7`): directly connected to the `SENSORS` connector
-- Digital pins `D2` to `D5`: directly connected to the `SENSORS` connector
+- Digital pins `D2` to `D5`: directly connected to the `SENSORS` connector. (Important note: pin `D2` is also connected to the `IRQ` pin of the transceiver)
 - Digital pins `D6` and `D7`: connected to the actuator connectors (`ACT1` and `ACT2` respectively) through two relays
 - `AREF`: connected to the analog reference trimmer
 - `GND`, `3V3` and `5V`: connected to the power supply connectors
