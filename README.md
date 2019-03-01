@@ -3,6 +3,8 @@ HomeMon Node Shield for Arduino Nano
 
 This Eagle layout can be used to etch a single HomeMon node, in the form of a shield for the Arduino Nano prototyping platform.
 
+The Arduino Nano sketch for this shield is available [here](https://github.com/HashakGik/HomeMonNode-Shield-Arduino-Nano).
+
 ![Schematics](Screenshots/Schematics.png "Electric scheme")
 <br />
 ![Top](Screenshots/Top.png "PCB Layout - Top side")
