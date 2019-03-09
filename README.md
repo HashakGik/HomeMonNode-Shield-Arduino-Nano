@@ -40,12 +40,15 @@ Bill of materials
 - 1x Arduino Nano
 - 2x Diodes with DO-41 package (e.g. 1N4004)
 - 1x DIP switch SPST 1 position (RS-Components code: 877-2100)
-- 1x DIP switch SPST 2 positions (RS-Components code: 877-2113)
-- 1x HC-05 Bluetooth module (6 pins breakout board)
 - 2x Monostable 5V DC G5LE relays (RS-Components code: 808-8465)
 - 2x NPN transistors with TO-92 package (e.g. 2N3904)
 - 1x NRF24L01+ module (8 pins breakout board)
-- 2x Two-ways PCB terminal blocks with 2.54mm pitch (RS-Components code: 790-1098)
+- 2x Two-ways PCB terminal blocks with 5.08mm pitch (RS-Components code: 425-8720)
+
+Optionally, for Bluetooth support:
+
+- 1x DIP switch SPST 2 positions (RS-Components code: 877-2113)
+- 1x HC-05 Bluetooth module (6 pins breakout board)
 
 Remarks
 -------
